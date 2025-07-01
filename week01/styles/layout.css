@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    height: 100vh;
+    grid-template: auto 1fr / 300 px 1fr auto;
+}
+header{
+    background-color: lightcyan;
+    padding: 2rem;
+    grid-column: 1/4;
+}
+.left-sidebar{
+    background: lightgreen;
+}
+main{
+    background: #F9FAFB;
+    grid-column: 2/3;
+}
+.right-sidebar{
+    background: greenyellow;
+    grid-column: 3/4;
+}
+footer{
+    background: grey;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1/4;
+}
+.left-sidebar,
+.right-sidebar{
+    padding: 1rem;
+}
